@@ -64,7 +64,7 @@ button, strong{
 .message{
 	width: 80%;
 	margin-bottom: 8px;
-	margin-left: 2%;
+	margin-left: 2.5%;
 }
 
 .message h3{
@@ -85,6 +85,10 @@ button, strong{
 	background-color: #CDDC39;
 	color: black;
 	text-transform: uppercase;
+}
+
+.message.own{
+	margin-left: 17.5%;
 }
 
 ul {
