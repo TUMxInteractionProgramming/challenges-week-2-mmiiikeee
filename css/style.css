@@ -35,6 +35,7 @@ button, strong{
 #tab-bar{
 	background-color: white;
 	text-align: center;
+	font-size: 0;
 }
 
 #tab-bar button{
