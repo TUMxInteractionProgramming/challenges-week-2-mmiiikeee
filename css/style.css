@@ -61,6 +61,32 @@ button, strong{
 
 /*styles for channel area*/
 
+.message{
+	width: 80%;
+	margin-bottom: 8px;
+	margin-left: 2%;
+}
+
+.message h3{
+	font-size: medium;
+}
+
+.message h3 em{
+	font-size: larger;
+	font-style: normal;
+}
+
+.message p{
+	background-color: white;
+	padding: 16px;
+}
+
+.message button{
+	background-color: #CDDC39;
+	color: black;
+	text-transform: uppercase;
+}
+
 ul {
 	/* #2 #colorful #channelandchat */
 	background-color: white;
