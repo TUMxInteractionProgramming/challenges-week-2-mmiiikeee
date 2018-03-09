@@ -28,16 +28,34 @@ h1 {
 	color: white;
 }
 
-button {
-	/* #2 #colourful #plusfive */
-	background-color: #CDDC39;
-	color: black;
-	/* #2 #font capital #letters */
+button, strong{
 	text-transform: uppercase;
 }
 
-button, strong{
+#tab-bar{
+	background-color: white;
+	text-align: center;
+}
+
+#tab-bar button{
+	height: 70px;
+	background-color: white;
+	color: black;
 	text-transform: uppercase;
+
+	width: 33%;
+	border: none;
+	padding: 16px;
+}
+
+#tab-bar button.selected{
+	color: #3F51B5;
+	border-bottom: 4px solid #3F51B5;
+}
+
+#tab-bar button img{
+	display: block;
+	margin: 0 auto 4px auto;
 }
 
 
@@ -49,6 +67,22 @@ ul {
 	list-style-type: none;
 }
 
+li{
+	box-sizing: border-box;
+	height: 50px;
+	padding: 16px;
+	font-size: 16px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+li.selected{
+	color: #3F51B5;
+	border-left: 4px solid #3F51B5;
+}
+
+li img{
+	vertical-align: middle;
+}
 /*styles for chat area*/
 
 p {
